@@ -1,0 +1,14 @@
+@import url(../styles/sobre-nos.css);
+@import url(../styles/header.css);
+
+:root{
+    --font-principal: 'Inter', sans-serif;
+    --cor-de-fundo-principal: #FFFFFF;
+}
+
+body{
+    background-color: var(--cor-de-fundo-principal);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
