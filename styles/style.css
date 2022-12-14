@@ -4,6 +4,9 @@
 :root{
     --font-principal: 'Inter', sans-serif;
     --cor-de-fundo-principal: #FFFFFF;
+    --cor-logo-nome: #3A404E;
+    --cor-cinza: #667085;
+    --cor-vermelho: #8E2424;
 }
 
 body{
