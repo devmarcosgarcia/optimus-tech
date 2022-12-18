@@ -1,0 +1,24 @@
+.describe{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.describe__title{
+    font-weight: 600;
+    color: var(--cor-vermelho);
+    margin-bottom: 2em;
+}
+
+.describe__text-center-bold{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.describe__text{
+    font-size: 20px;
+    color: var(--cor-cinza);
+    line-height: 30px;
+}
