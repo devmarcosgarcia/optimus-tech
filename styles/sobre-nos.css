@@ -26,6 +26,7 @@
 .metricas{
     max-width: 1440px;
     display: flex;
+    margin: auto;
     padding: 4em 6em;
     justify-content: space-evenly;
 }
@@ -53,4 +54,37 @@
 .metricas__reviews{
     flex: 1;
     max-width: 22%;
+}
+
+.vagas-abertas{
+    max-width: 1440px;
+    text-align: center;
+    margin: auto;
+    margin: 6em 0;
+}
+
+.vagas-abertas__name{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-vermelho);
+    background-color: var(--cor-cinza-claro);
+    padding: 0.3em 1em;
+    border-radius: 16px;
+}
+
+.vagas-abertas__titulo{
+    font-weight: 600;
+    font-size: 36px;
+    padding: 0.8em 0;
+}
+
+.vagas-abertas__texto{
+    font-size: 20px;
+    color: var(--cor-cinza);
+    margin-bottom: 2.5em;
+}
+
+.vagas-abertas__img{
+    width: 80%;
 }
