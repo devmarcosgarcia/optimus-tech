@@ -1,8 +1,8 @@
 .describe{
     margin: auto;
-    width: 70%;
+    max-width: 1440px;
     text-align: center;
-    padding: 4em 0;
+    padding: 4em 20em;
 }
 
 .describe__title{
@@ -21,4 +21,36 @@
     font-size: 20px;
     color: var(--cor-cinza);
     line-height: 30px;
+}
+
+.metricas{
+    max-width: 1440px;
+    display: flex;
+    padding: 4em 6em;
+    justify-content: space-evenly;
+}
+
+.metricas__numeros{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-vermelho)
+}
+
+.metricas__titulo{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.metricas__text{
+    color: var(--cor-cinza);
+    line-height: 24px;
+}
+
+.metricas__projetos, 
+.metricas__colaboradores, 
+.metricas__downloads, 
+.metricas__reviews{
+    flex: 1;
+    max-width: 22%;
 }
