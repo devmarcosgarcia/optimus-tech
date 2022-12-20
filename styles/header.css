@@ -2,7 +2,8 @@
 header{
     display: flex;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0 3em;
     max-width: 1440px;
     height: 80px;
 }
@@ -52,7 +53,7 @@ header{
     padding: 0 1.5em;
 }
 
-.header__botoes-cadastrar{
+.header__botoes-cadastrar, .buttom{
     text-decoration: none;
     color: #FFFFFF;
     background: var(--cor-vermelho);

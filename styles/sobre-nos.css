@@ -90,10 +90,10 @@
 
 
 .vagas{
-    max-width: 1440px;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: 0 auto;
     align-items: center;
 }
 
@@ -127,4 +127,79 @@
 .vagas__area-tipo, .vagas__area-salario{
     color: var(--cor-cinza);
     font-weight: 500;
+}
+
+
+.colaboradores{
+    width: 80%;
+    margin: 4em auto;
+    background: rgba(196, 25, 25, 0.03);
+    text-align: center;
+    padding: 2em;
+    border-radius: 16px;
+}
+
+.colaboradores__title{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--cor-vermelho);
+}
+
+.colaboradores__text{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 1em 0;
+}
+
+.colaboradores__avatar{
+    margin-bottom: 2em;
+}
+
+.colaboradores__avatar-nome{
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+.colaboradores__avatar-cargo{
+    font-size: 14px;
+    color: var(--cor-cinza);
+}
+
+
+.rodape{
+    background: #F9FAFB;
+    text-align: center;
+    padding: 4em;
+}
+
+.rodape__title{
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.rodape__text{
+    font-size: 20px;
+    color: var(--cor-cinza);
+    margin-top: 1.5em;
+}
+
+.rodape__cadastro{
+    margin: 2em 0;
+}
+
+.rodape__cadastro-email{
+    background: var(--branco);
+    border: 1px solid #D0D5DD;
+    color: var(--branco);
+    border-radius: 8px;
+    padding: 1em;
+    width: 22%;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    margin-right: 1em;
+}
+
+
+.rodape__copy{
+    color: var(--cor-cinza);
 }
